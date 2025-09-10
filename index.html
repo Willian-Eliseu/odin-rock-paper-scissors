@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
-    <meta name="description" content="">
+    <meta name="description" content="Rock Paper Scissors Game">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Rock-Paper-Scissors Game</h1>
+        <p>To start the game, choose one option:</p>
+    </header>
+    <main>
+
+        <!-- game score -->
+        <section id="score">
+            <div>
+                <p>Player: <span id="playerScore">1</span></p>
+            </div>
+            <div>
+                <p>Computer: <span id="computerScore">2</span></p>
+            </div>
+        </section>
+
+        <!-- game options -->
+        <section id="options">
+            <button>
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-hand-paper"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-hand-scissors"></i>
+            </button>
+        </section>
+
+        <!-- game rounds -->
+        <section id="rounds">
+
+        </section>
+
+        <!-- restart the game -->
+        <section id="restart">
+            <button id="restartButton">Restart Game</button>
+        </section>
+
+    </main>
+
+    https://iammrk145.github.io/Rock-Paper-Scissors/
+
+    https://svkeir.github.io/jo-ken-po/
+
     <script src="script.js"></script>
 </body>
+
 </html>
