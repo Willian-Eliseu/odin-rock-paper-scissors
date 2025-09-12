@@ -59,7 +59,7 @@ main{
     margin: 1rem 0;
 }
 
-#options button{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,30 @@ main{
     cursor: pointer;
 }
 
+.btn.disabled{
+    opacity: .5;
+    cursor: not-allowed;
+}
+
 button:hover{
     opacity: .9;
     box-shadow: .2rem .2rem #3e778d;
 }
+
+#restart{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#restart button{
+    font-size: 1.2rem;
+    background-color: #dfcd2f;
+    animation: ease-in-out 1s;
+}
+
+#restart button:hover{
+    background-color: #312e0e;
+    color: #dfcd2f;
+}
+
